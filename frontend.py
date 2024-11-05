@@ -9,7 +9,7 @@ import requests
 st.set_page_config(page_title="Star Type Prediction App", layout="wide")
 
 # Define the base URL for the FastAPI backend
-API_URL = "http://127.0.0.1:8000"  # Replace with your actual API URL
+API_URL = "https://star-type-predictor-2wh8.onrender.com/"  # Replace with your actual API URL
 
 # Initialize session state for page navigation
 if 'page' not in st.session_state:

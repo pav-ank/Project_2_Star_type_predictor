@@ -15,7 +15,7 @@ app = FastAPI()
 # Configure CORS middleware to allow cross-origin requests
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins; modify for production use
+    allow_origins=["https://star-type.streamlit.app/"],  # Allows all origins; modify for production use
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

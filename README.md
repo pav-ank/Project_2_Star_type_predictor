@@ -1,6 +1,9 @@
 # Star Type Predictor using Logistic Regression
 
-This web application allows you to predict the type of stars based on their physical parameters using Machine Learning. You can easily classify stars into different categories using two modes:
+## To acces the Web app:
+click on this --> [Star_Type_Predictor](https://star-type.streamlit.app/)
+
+- This web application allows you to predict the type of stars based on their physical parameters using Machine Learning. You can easily classify stars into different categories using two modes:
 
 - Single Prediction Mode: Predict the type of a single star by inputting its features.
 - Bulk Prediction Mode: Predict the types of multiple stars by uploading a CSV file containing star features.
